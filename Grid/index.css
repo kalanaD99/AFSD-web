@@ -1,0 +1,38 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+
+.item{
+    padding: 30px;
+    background-color: aqua;
+    margin: 5px;
+    text-align: center;
+   
+}
+.item-1{
+    grid-column-start: 2;
+    grid-column-end:4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.squre{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    
+}
+
+@media only Screen and (max-width: 520px){
+    .squre{
+        background-color: rgb(165, 42, 159);
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        
+    }
+}
+
+
