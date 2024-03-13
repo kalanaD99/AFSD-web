@@ -169,7 +169,16 @@ for (let i = 0; i < arr1.length; i++) {
 //while loop
 
 let w = 0;
-while(w<0){
-    console.log("While loop "+w)
-    w++
+while(w<10){
+    console.log("While loop "+w);
+    w++;
 }
+
+// do while 
+
+let chill = 1;
+do{
+    console.log(chill);
+    chill++;
+
+}while(chill <10)
