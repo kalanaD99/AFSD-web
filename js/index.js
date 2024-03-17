@@ -182,3 +182,42 @@ do{
     chill++;
 
 }while(chill <10)
+
+// Event 
+// onClick 
+function clickMe () {
+    console.log("Click Button");
+    // document.write('<br><h1>Chamikara</h1>')
+}
+
+// onChange 
+function onChangeText () {
+    const text = document.getElementById('change-text').value;
+    document.getElementById('onChange-view').innerText = text
+}
+
+// Mouse Over 
+function mouseOver () {
+    document.getElementById('mouse-view').style.backgroundColor = 'red'
+    document.getElementById('mouse-view').style.width = '300px'
+}
+
+// Mouse Out 
+function mouseOut () {
+    document.getElementById('mouse-view').style.backgroundColor = 'blue'
+    document.getElementById('mouse-view').style.width = '200px'
+}
+
+function keyDown () {
+    console.log('Key Down....');
+    // const text = document.getElementById('keyId').value;
+    // document.getElementById('onKey-view').innerText = text
+}
+
+function keyUp () {
+    console.log('Key Up....');
+}
+
+function keyPress () {
+    console.log('Key Press ....');
+}

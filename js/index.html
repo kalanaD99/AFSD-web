@@ -12,7 +12,27 @@
     <br>
     <br>
 
-    <div id="mouse-view" onmouseover="mouseover()" onmouseout="mouseout()" style="width: 200px; height: 100px; background-color: brown  ;"></div>
+    <button type="button" onclick="clickMe()">Click other</button>
+
+    <br><br><br>
+
+    <input id="change-text" type="text" onchange="onChangeText()">
+    <h1 id="onChange-view"></h1>
+
+    <br><br>
+
+    <div id="mouse-view" onmouseover="mouseOver()" onmouseout="mouseOut()" style="width: 200px; height: 200px; background-color: blue;"></div>
+
+    <br><br>
+
+    <input id="keyId" type="text" onkeydown="keyDown()" onkeyup="keyUp()" onkeypress="keyPress()">
+
+    <h1 id="onKey-view"></h1>
+
+    <input id="keyId" type="text" onkeydown="keyDown()" onkeyup="keyUp()" onkeypress="keyPress()">
+
+    <h1 id="onKey-view">Chamikara</h1>
+
 
     <script src="index.js"></script>
 </body>
